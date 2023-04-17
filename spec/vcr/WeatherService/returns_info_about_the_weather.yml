@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Mon, 17 Apr 2023 18:08:18 GMT
+      - Mon, 17 Apr 2023 19:49:12 GMT
       Content-Type:
       - application/json; charset=utf-8
       Transfer-Encoding:
@@ -28,6 +28,6 @@ http_interactions:
       - keep-alive
     body:
       encoding: ASCII-8BIT
-      string: '{"latitude":39.699997,"longitude":-105.0,"generationtime_ms":1.109004020690918,"utc_offset_seconds":-21600,"timezone":"America/Denver","timezone_abbreviation":"MDT","elevation":1612.0,"daily_units":{"time":"iso8601","sunset":"iso8601","precipitation_hours":"h"},"daily":{"time":["2023-04-11"],"sunset":["2023-04-11T19:35"],"precipitation_hours":[0.0]}}'
-  recorded_at: Mon, 17 Apr 2023 18:08:18 GMT
+      string: '{"latitude":39.699997,"longitude":-105.0,"generationtime_ms":0.9720325469970703,"utc_offset_seconds":-21600,"timezone":"America/Denver","timezone_abbreviation":"MDT","elevation":1612.0,"daily_units":{"time":"iso8601","sunset":"iso8601","precipitation_hours":"h"},"daily":{"time":["2023-04-11"],"sunset":["2023-04-11T19:35"],"precipitation_hours":[0.0]}}'
+  recorded_at: Mon, 17 Apr 2023 19:49:12 GMT
 recorded_with: VCR 6.1.0
