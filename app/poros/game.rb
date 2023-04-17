@@ -3,7 +3,6 @@ class Game
               :overview
 
   def initialize(overview, details)
-    require 'pry'; binding.pry
     @overview = overview
     @details = details
   end
@@ -16,5 +15,9 @@ class Game
     details[:officials].map do |off|
       off[:official][:fullName]
     end.to_sentence
+  end
+
+  def venue
+    overview[:dates][0][:games][0][:venue][:name]
   end
 end
